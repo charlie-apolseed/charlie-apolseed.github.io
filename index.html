@@ -1,15 +1,121 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <head >
+        <link rel="stylesheet" href="Style/style.css">
         <title>Charlie Apolinsky Personal Page</title>
     </head>
+    <style>
+        .email_button{
+            padding: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            background-color: #b005b6;
+            font-weight: bold;
+            color: white;
+            border-width: 0;
+            border-radius: 10px;
+            cursor: pointer; 
+            transition: opacity 0.2s;
+            margin-left: 5px;
+        }
+
+        .email_button:hover{
+            opacity: 0.4;
+            box-shadow: 3px 3px 3px #750579;
+        }
+
+        .uberButton{
+            height: 30px;
+            width: 90px;
+            background-color: black;
+            color: white;
+            border-width: 0;
+        }
+
+        .githubButton{
+            height: 30px;
+            width: 70px;
+            color: white;
+            font-weight: bold;
+            background-color: rgb(46, 164, 79);
+            border-width: 0;
+            border-radius: 5px;
+        }
+    </style>
 <body>
-<h1>Hello World!</h1>
-<p>I'm hosted with GitHub Pages. TESTING</p>
+<div class="personal_description">
+    <div class="personal_description-text">
+        <h1>Hello World!</h1>
+        <h2>I'm <b style="color: rgb(0, 8, 255);">Charlie</b> and I am passionate about:</h2>
+    </div>
+    <div class="passions_typing">
+        <h1 class="autotype"></h1>
+    </div>
+</div>
+
+<div class="carousel1">
+    <button class="carousel1__button carousel1__button--left">
+        <img src="Images/Triangle_left.svg" alt="left">
+    </button>
+    <div class="carousel1__track-container">
+        <ul class="carousel1__track">
+            <li class="carousel1__slide current-slide">
+                <h6 class="carousel1_label text-1">Slide 1 sample text</h6>
+                <img class="carousel1_img" src="https://content.r9cdn.net/rimg/dimg/01/48/8c7a3db3-city-31491-1696eb0153f.jpg?width=1366&height=768&xhint=1797&yhint=1114&crop=true" alt="Summer2024">
+            </li>
+            <li class="carousel1__slide">
+                <h6 class="carousel1_label text-2">Slide 2 sample text</h6>
+                <img class="carousel1_img" src="https://www.mainemaritimemuseum.org/wp-content/uploads/2018/10/me_bt_57.jpg.800x400_q85_crop-smart.jpg" alt="Summer2023">
+            </li>
+            <li class="carousel1__slide">
+                <h6 class="carousel1_label text-3">Slide 3 sample text</h6>
+                <img class="carousel1_img" src="https://cse.umn.edu/sites/cse.umn.edu/files/math-physics-supersonic-flow-2.jpg" alt="PhysicsProject">
+            </li>
+        </ul>
+    </div>
+    <button class="carousel1__button carousel1__button--right">
+        <img src="Images/Triangle_left.svg" alt="right">
+    </button>
+</div>
+</div>
+    I'm hosted with GitHub Pages.
+</p>
+<!-- Links to my information -->
 <p>
     Click 
-     <a href="https://www.linkedin.com/in/charlie-apolinsky-04a4b81bb" target="_blank" style="font-weight: bolder; color: rgb(6, 6, 105);">Here</a> 
+     <a href="https://www.linkedin.com/in/charlie-apolinsky-04a4b81bb" title="My LinkedIn page" target="_blank" style="font-weight: bolder;">
+        Here
+    </a> 
     to view my LinkedIn account!
 </p>
+<p>
+    Interested in contacting me? Click on the button to email me. 
+    <a href="mailto:recipient@example.com?subject=Webpage%20Inquiry&body=Hello%20Charlie,%0D%0A%0D%0AMy%20name%20is%20(enter%20your%20name)%20and%20I%20am%20writing%20to%20ask%20you%20about:%0D%0A" style="font-weight: bolder;" title="My email">
+        <button class="email_button">
+            Click me!
+        </button>
+    </a>  
+</p>
+<p>
+    Testing out some buttons!
+    <br>
+    Uber button: 
+    <button class="uberButton">
+        Request now
+    </button><br><br>
+    Github button:
+    <button class="githubButton">
+        Sign up
+    </button>
+</p>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script> var typed = new Typed(".autotype", {
+        strings: ["coding","physics","helping others","the outdoors"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+    });
+    </script>
+    <script src="js/carousel1.js"></script>
 </body>
 </html>
