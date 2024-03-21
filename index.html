@@ -1,121 +1,114 @@
 <!DOCTYPE html>
 <html>
-    <head >
-        <link rel="stylesheet" href="Style/style.css">
-        <title>Charlie Apolinsky Personal Page</title>
-    </head>
-    <style>
-        .email_button{
-            padding: 10px;
-            padding-left: 15px;
-            padding-right: 15px;
-            background-color: #b005b6;
-            font-weight: bold;
-            color: white;
-            border-width: 0;
-            border-radius: 10px;
-            cursor: pointer; 
-            transition: opacity 0.2s;
-            margin-left: 5px;
-        }
 
-        .email_button:hover{
-            opacity: 0.4;
-            box-shadow: 3px 3px 3px #750579;
-        }
+<head>
+    <link rel="stylesheet" href="Style/style.css">
+    <title>Charlie Apolinsky Personal Page</title>
+</head>
 
-        .uberButton{
-            height: 30px;
-            width: 90px;
-            background-color: black;
-            color: white;
-            border-width: 0;
-        }
-
-        .githubButton{
-            height: 30px;
-            width: 70px;
-            color: white;
-            font-weight: bold;
-            background-color: rgb(46, 164, 79);
-            border-width: 0;
-            border-radius: 5px;
-        }
-    </style>
 <body>
-<div class="personal_description">
-    <div class="personal_description-text">
-        <h1>Hello World!</h1>
-        <h2>I'm <b style="color: rgb(0, 8, 255);">Charlie</b> and I am passionate about:</h2>
+    <div class="hello_world">
+        <div class = "hello_world--text">
+            <p class="hello_world-line1">Hello World</p>
+            <p class="hello_world-line2">Hello World</p>
+            <p class="hello_world-line3">Hello World</p>    
+            <p class="passions_text">
+                I'm Charlie, and I'm passionate about
+            </p>
+            <p><span class="autotype"></span></p>
+        </div>
+        <img class="hello_world--photo" src="https://lh3.googleusercontent.com/drive-viewer/AKGpihaBqxEyiNvLk3xxE05oWqFkUvIb9R37XuSUJTnj_T95o0VmDUGaC_uEemFxcz0waJweP6xMYdLA3KJT7enu7IasVTAnTQ=s1600" alt="Photo of me">
     </div>
-    <div class="passions_typing">
-        <h1 class="autotype"></h1>
+    <hr>
+    <div class="projects">
+        <h1>Check out some of my projects <span style="opacity: .1; font-size: 50%; font-style: italic;"> Click to find out more</span></h1>
+        <div class="carousel1">
+            <button class="carousel1__button carousel1__button--left is-hidden">
+                <img src="Images/Triangle_left.svg" alt="left">
+            </button>
+            <div class="carousel1__track-container">
+                <ul class="carousel1__track">
+                    <li class="carousel1__slide current-slide">
+                        <h6 class="carousel1_label text-1">Summer 2024: SailSwarm Research in Germany</h6>
+                        <img class="carousel1_img" src="https://content.r9cdn.net/rimg/dimg/01/48/8c7a3db3-city-31491-1696eb0153f.jpg?width=1366&height=768&xhint=1797&yhint=1114&crop=true" alt="Summer2024">
+                    </li>
+                    <li class="carousel1__slide">
+                        <h6 class="carousel1_label text-2">Summer 2023: Internship at MAPC</h6>
+                        <img class="carousel1_img" src="https://www.mainemaritimemuseum.org/wp-content/uploads/2018/10/me_bt_57.jpg.800x400_q85_crop-smart.jpg" alt="Summer2023">
+                    </li>
+                    <li class="carousel1__slide">
+                        <h6 class="carousel1_label text-3">Current Project: Studying Drag and Fluid Dynamics</h6>
+                        <img class="carousel1_img" src="https://cse.umn.edu/sites/cse.umn.edu/files/math-physics-supersonic-flow-2.jpg" alt="PhysicsProject">
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel1__button carousel1__button--right">
+                <img src="Images/Triangle_left.svg" alt="right">
+            </button>
+        </div>
     </div>
-</div>
+    <hr>
+    <p class="interests_title">
+        Hobbies and Interests:
+    </p>
+    
+    <div class="carousel2">
+        <div class="carousel2__track--container">
+            <ul class="carousel2__track">
+                <li class="carousel2__slide current-slide">
+                    <div class="carousel2__slide--content">
+                        <div class="carousel2__slide--content-left">
+                            <img class="interests__pic pic-1" src="https://lh3.googleusercontent.com/drive-viewer/AKGpihaQWW56Dxf6i-7nCXdXeknUQf77W982SEh7394ITLoxWgjNvCbxjVbHQiqIvce4MwAfvhi2hdWvBMkalhzJ5fKtjwGuPw=s1600">
+                        </div>
+                        <div class="carousel2__slide--content-right">
+                            <div class="interests__text text_1">
+                                <h1>Triathlon</h1>
+                                <p>
+                                    I love endurance sports. 
+                                    Going for a run or ride is my favorite way to clear my head!
+                                    <br>
+                                    My longest ride ever was <a href="https://strava.app.link/9wF6ZXaw9Hb" alt="long ride">200 miles</a>, and my longest run was a <a href="https://strava.app.link/sH0uS9dw9Hb" alt="marathon">marathon</a>. 
+                                    <br>
+                                    I successfully competed in the <a href="https://rtrt.me/ulink/IRMA/IRM-MAINE703-2023/tracker/RNKYJ7AF/focus" alt="Ironman results">Maine 70.3</a> and hope to complete more triathlons soon!
+                                    <br>
+                                    <br>
+                                    Click <a href="https://strava.app.link/wWzuYT9u9Hb" target="_blank">here</a> to check out my Strava. </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="carousel2__slide">
+                    <div class="carousel2__slide--content">
+                    </div>
+                </li>
+                <li class="carousel2__slide">
+                    <div class="carousel2__slide--content">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="carousel2__nav">
+            <button class="carousel2__indicator current-slide"></button>
+            <button class="carousel2__indicator"></button>
+            <button class="carousel2__indicator"></button>
+        </div>
+    </div>
+    <hr style="margin-top: 50px; margin-bottom: 20px;">
+</body>
 
-<div class="carousel1">
-    <button class="carousel1__button carousel1__button--left">
-        <img src="Images/Triangle_left.svg" alt="left">
-    </button>
-    <div class="carousel1__track-container">
-        <ul class="carousel1__track">
-            <li class="carousel1__slide current-slide">
-                <h6 class="carousel1_label text-1">Slide 1 sample text</h6>
-                <img class="carousel1_img" src="https://content.r9cdn.net/rimg/dimg/01/48/8c7a3db3-city-31491-1696eb0153f.jpg?width=1366&height=768&xhint=1797&yhint=1114&crop=true" alt="Summer2024">
-            </li>
-            <li class="carousel1__slide">
-                <h6 class="carousel1_label text-2">Slide 2 sample text</h6>
-                <img class="carousel1_img" src="https://www.mainemaritimemuseum.org/wp-content/uploads/2018/10/me_bt_57.jpg.800x400_q85_crop-smart.jpg" alt="Summer2023">
-            </li>
-            <li class="carousel1__slide">
-                <h6 class="carousel1_label text-3">Slide 3 sample text</h6>
-                <img class="carousel1_img" src="https://cse.umn.edu/sites/cse.umn.edu/files/math-physics-supersonic-flow-2.jpg" alt="PhysicsProject">
-            </li>
-        </ul>
-    </div>
-    <button class="carousel1__button carousel1__button--right">
-        <img src="Images/Triangle_left.svg" alt="right">
-    </button>
-</div>
-</div>
-    I'm hosted with GitHub Pages.
-</p>
-<!-- Links to my information -->
-<p>
-    Click 
-     <a href="https://www.linkedin.com/in/charlie-apolinsky-04a4b81bb" title="My LinkedIn page" target="_blank" style="font-weight: bolder;">
-        Here
-    </a> 
-    to view my LinkedIn account!
-</p>
-<p>
-    Interested in contacting me? Click on the button to email me. 
-    <a href="mailto:recipient@example.com?subject=Webpage%20Inquiry&body=Hello%20Charlie,%0D%0A%0D%0AMy%20name%20is%20(enter%20your%20name)%20and%20I%20am%20writing%20to%20ask%20you%20about:%0D%0A" style="font-weight: bolder;" title="My email">
-        <button class="email_button">
-            Click me!
-        </button>
-    </a>  
-</p>
-<p>
-    Testing out some buttons!
-    <br>
-    Uber button: 
-    <button class="uberButton">
-        Request now
-    </button><br><br>
-    Github button:
-    <button class="githubButton">
-        Sign up
-    </button>
-</p>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script> var typed = new Typed(".autotype", {
-        strings: ["coding","physics","helping others","the outdoors"],
+
+
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script> var typed = new Typed(".autotype", {
+        strings: ["coding", "physics", "helping others", "the outdoors"],
         typeSpeed: 150,
         backSpeed: 150,
         loop: true
     });
-    </script>
-    <script src="js/carousel1.js"></script>
-</body>
+</script>
+<script src="js/carousel1.js"></script>
+<script src="js/carousel2.js"></script>
 </html>

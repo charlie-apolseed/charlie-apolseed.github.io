@@ -21,13 +21,24 @@ rightButton.addEventListener('click', e => {
     const currentSlide = track.querySelector(".current-slide");
     const nextSlide = currentSlide.nextElementSibling;
     moveToSlide(track, currentSlide, nextSlide)
+    leftButton.classList.remove('is-hidden');
+    const slideIndex = slides.findIndex(slide => slide === nextSlide);
+    if (slideIndex === slides.length - 1) {
+        rightButton.classList.add('is-hidden');
+    }
 });
 
 leftButton.addEventListener('click', e => {
     const currentSlide = track.querySelector(".current-slide");
     const prevSlide = currentSlide.previousElementSibling;
     moveToSlide(track, currentSlide, prevSlide);
+    rightButton.classList.remove('is-hidden');
+    const slideIndex = slides.findIndex(slide => slide === prevSlide);
+    if (slideIndex === 0) {
+        leftButton.classList.add('is-hidden');
+    }
 });
+
 
 console.log(track);
 console.log(slides);
