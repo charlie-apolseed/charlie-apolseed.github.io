@@ -108,7 +108,7 @@ hr {
     height: 0px;
     text-align: center;
     margin-top: 0;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .carousel1_img{
@@ -307,7 +307,7 @@ hr {
 
 .education_and_resume {
     width: 90%;
-    height: 800px;
+    height: 600px;
     margin-left: 5%;
     border-radius: 10px;
 }
@@ -319,7 +319,7 @@ hr {
     position: relative;
     margin: 2%;
     left: 35%;
-    top: 40px;
+    top: 50px;
     background-color: rgb(251, 226, 226, .7);
     border-radius: 10px;
 }
@@ -327,7 +327,7 @@ hr {
 .education_icon {
     padding: 10px;
     border-radius: 10px;
-    height: 200px;
+    height: 130px;
 }
 
 .education_text {
@@ -336,14 +336,14 @@ hr {
 
 .education_text h2{
     font-weight: 600;
-    font-size: 45px;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .education_text h6{
     font-weight: 600;
-    font-size: 30px;
+    font-size: 23px;
     margin-top: 5px;
     margin-bottom: 5px;
     padding-left: 10px;
@@ -351,8 +351,8 @@ hr {
 
 .education_text p{
     font-weight: 600;
-    font-size: 25px;
-    margin-top: 25px;
+    font-size: 18px;
+    margin-top: 15px;
     padding-left: 10px;
 }
 
