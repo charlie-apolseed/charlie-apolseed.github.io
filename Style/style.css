@@ -1,3 +1,5 @@
+
+
 body {
     color: rgb(11, 12, 83);
     background-color: rgb(251, 226, 226);
@@ -197,6 +199,7 @@ hr {
     height: 600px;
     width: 80%;
     margin: 0 auto;
+    scroll-snap-type: y mandatory;
 }
 
 .carousel2__track--container {
@@ -370,4 +373,34 @@ hr {
     color: rgb(11, 12, 83);
     font-style: normal;
     text-decoration: none;
+}
+
+
+/*Contact me */
+.contact_container {
+    width: 90%;
+    height: 300px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact_icon {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    object-fit: cover;
+}
+
+.contact_icon_image {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    object-fit: cover;
 }
