@@ -29,84 +29,74 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- Visited places script-->
-  <script>
-    // VisitedPlaces.com code
-    var visitedplaces_config = {
-      "map": "world",
-      "projection": "geoOrthographic",
-      "theme": "dark-green",
-      "water": 1,
-      "graticule": 0,
-      "names": 1,
-      "duration": 3000,
-      "slider": 0.1,
-      "autoplay": 1,
-      "autozoom": "none",
-      "data": [
-        {
-          "colors": {},
-          "places": [
-            "US"
-          ],
-          "text": "My Home",
-          "position": {
-            "zoomLevel": 1,
-            "geoPoint": {
-              "longitude": 0,
-              "latitude": 0
-            },
-            "rotationX": 103.5,
-            "rotationY": -44.7
-          }
+  <!-- VisitedPlaces.com code -->
+<script>
+  // VisitedPlaces.com code
+  var visitedplaces_config = {
+    "map": "world",
+    "projection": "geoOrthographic",
+    "theme": "dark-green",
+    "water": 1,
+    "graticule": 0,
+    "names": 1,
+    "duration": 2000,
+    "slider": 0,
+    "autoplay": 1,
+    "autozoom": "none",
+    "data": [
+      {
+        "places": [
+          "US"
+        ],
+        "text": "My Home",
+        "colors": {},
+        "position": {
+          "zoomLevel": 1,
+          "geoPoint": {
+            "longitude": 0,
+            "latitude": 0
+          },
+          "rotationX": 103.49935619674021,
+          "rotationY": -44.69362095469709
         },
-        {
-          "colors": {},
-          "places": [
-            "CA",
-            "BM"
-          ],
-          "color": "e392fe",
-          "text": "North America",
-          "position": {
-            "zoomLevel": 1.6,
-            "geoPoint": {
-              "longitude": -100.6,
-              "latitude": 44.4
-            },
-            "rotationX": 100.6,
-            "rotationY": -44.4
-          }
+        "color": "9929bd"
+      },
+      {
+        "places": [
+          "BE",
+          "AT",
+          "FR",
+          "DE",
+          "HU",
+          "IT",
+          "MC",
+          "NL",
+          "PT",
+          "SK",
+          "CH",
+          "GB"
+        ],
+        "text": "Europe",
+        "position": {
+          "geoPoint": {
+            "longitude": 12.1,
+            "latitude": 53.3
+          },
+          "rotationX": -12.1,
+          "rotationY": -53.3,
+          "zoomLevel": 2.4
         },
-        {
-          "colors": {},
-          "places": [
-            "FR",
-            "DE",
-            "CH",
-            "GB",
-            "AT",
-            "IT",
-            "HU",
-            "PT",
-            "MC"
-          ],
-          "color": "d357fe",
-          "text": "Europe ",
-          "position": {
-            "zoomLevel": 2.4,
-            "geoPoint": {
-              "longitude": 12.1,
-              "latitude": 53.3
-            },
-            "rotationX": -12.1,
-            "rotationY": -53.3
-          }
-        }
-      ],
-      "home": "US"
-    }
+        "color": "ff40ff",
+        "colors": {}
+      }
+    ],
+    "home": "US"
+  };
   </script>
+  <div id="chartdiv" style="width: 100%; height: 600px;">
+  <script src="https://www.visitedplaces.com/js/common.js"></script>
+  <script src="https://www.visitedplaces.com/js/viewer.js"></script>
+  <!-- end: VisitedPlaces.com code -->
 
   <!-- =======================================================
   * Template Name: iPortfolio
