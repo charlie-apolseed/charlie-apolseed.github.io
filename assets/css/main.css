@@ -766,6 +766,19 @@ section,
 }
 
 .resume .resume-item ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1.25rem; /* keep bullet indentation */
+}
+
+.resume .resume-item ul li {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.35;
+}
+
+
+.resume .resume-item ul {
   padding-left: 20px;
 }
 
